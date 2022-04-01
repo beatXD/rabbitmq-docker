@@ -9,5 +9,5 @@ services:
       - RABBITMQ_DEFAULT_PASS=admin
       - RABBITMQ_DEFAULT_VHOST=myvhost
     volumes:
-      - /var/lib/rabbitmq:/var/lib/rabbitmq
+      - ./rabbitmq:/var/lib/rabbitmq
     restart: always 
